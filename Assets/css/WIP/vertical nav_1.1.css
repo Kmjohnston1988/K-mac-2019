@@ -1,0 +1,131 @@
+/* Menu */
+
+.navbar {
+  vertical-align: middle;
+}
+
+.navbar.container-fluid {
+  text-align: left;
+  vertical-align: middle;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-width: 0px;
+  display: block;
+}
+
+.HOME {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  padding-left: 45px;
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  .navbar {
+    background-color: #1c1c1c; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -64px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+
+}
+
+
+
+/* Jumbotron - Header */
+
+.jumbotron-mountains {
+  background-color: #e8e8e8;
+  height: 100vh;
+  width: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image:url("../images/Header_BG_01.png");
+  background-attachment: Fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+}
+
+.jumbotron .col-xs-12 {
+  background-color:;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron h1 {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-size: 7rem;
+  color: #fff;
+  letter-spacing: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+  text-shadow:0px 0px 30px #585858;
+}
+
+.title-CTA {
+  display: block;
+  align-items: center;
+}
+
+.annotation {
+  background-color: #1c1c1c;
+  display: inline-flex;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  font-weight:300;
+  letter-spacing: 1px;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.annotation:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  .annotation {
+    width: 100%;
+    display: block;
+    text-align: center;
+    opacity: 1;
+  }
+
+  .jumbotron h1 {
+    font-size: 5rem;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 20px;
+  }
+
+  .jumbotron .col-xs-12 {
+    padding-bottom: 77px;
+  }
+
+  .btn-primary {
+    align-items: center;
+  }
+
+}

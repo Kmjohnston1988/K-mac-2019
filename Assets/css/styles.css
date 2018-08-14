@@ -1,0 +1,62 @@
+/* Basic page branding */
+
+html {
+  display: flex;
+}
+
+body {
+  background-color: #000;
+  font-family: Roboto, sans-serif
+}
+
+/* Type styles */
+
+h1 {
+  color: white;
+  font-size: 6.4rem;
+  font-weight: 700;
+  text-transform: Uppercase;
+  font-kerning: normal;
+  letter-spacing: 50px;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+p {
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 80px;
+  line-height: 1.6rem;
+}
+
+span {
+  color: white;
+  font-weight: 500;
+  text-transform: Uppercase;
+  letter-spacing: 3px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  padding: 20px;
+}
+
+/* ID rules */
+
+#Main-content {
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+}
+
+#description {
+  width: 46%;
+  align-items: center;
+  display: inline-block;
+}

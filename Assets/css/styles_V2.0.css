@@ -154,7 +154,7 @@ p {
   .jumbotron-mountains {
     background-color: #e8e8e8;
     height: 100vh;
-    width: auto;
+    width: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,7 +164,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    width: 100%;
   }
 
   .annotation {

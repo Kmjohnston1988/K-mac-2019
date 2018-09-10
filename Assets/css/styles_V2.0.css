@@ -155,15 +155,15 @@ p {
     background-color: #e8e8e8;
     height: 100vh;
     width: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
     display: flex;
-    background-image:url("../images/Header_BG_01.png");
+    background-image:url("../images/Header_BG_01.png")no-repeat center center fixed;
     background-attachment: Fixed;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    width: 100%;
   }
 
   .annotation {

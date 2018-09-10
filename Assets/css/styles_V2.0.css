@@ -157,7 +157,6 @@ p {
     width: 100vh;
     justify-content: center;
     align-items: center;
-    display: flex;
     background-image:url("../images/Header_BG_01.png");
     background-attachment: Fixed;
     background-repeat: no-repeat;

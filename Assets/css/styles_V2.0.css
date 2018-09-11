@@ -366,12 +366,16 @@ p {
 @media only screen and (max-width: 400px) {
 
   .gallery {
+    height: 100vh;
+    display: flex;
+    background-image: url("../images/Gallery image_01.png");
     background-attachment: scroll;
     background-position: center;
     background-color: #000;
     background-repeat: no-repeat;
     background-size: cover;
   }
+
 
 }
 

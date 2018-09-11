@@ -346,7 +346,7 @@ p {
   height: 100vh;
   display: flex;
   background-image: url("../images/Gallery image_01.png");
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: left;
   background-color: #000;
   background-repeat: no-repeat;

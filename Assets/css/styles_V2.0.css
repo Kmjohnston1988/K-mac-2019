@@ -170,6 +170,7 @@ p {
     display: block;
     text-align: center;
     opacity: 1;
+    padding: 30px 20px;
   }
 
   .jumbotron h1 {
@@ -346,7 +347,7 @@ p {
   height: 100vh;
   display: flex;
   background-image: url("../images/Gallery image_01.png");
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: left;
   background-color: #000;
   background-repeat: no-repeat;
@@ -360,6 +361,18 @@ p {
   vertical-align: middle;
   text-align: center;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 400px) {
+
+  .gallery {
+    background-attachment: scroll;
+    background-position: left;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 }
 
 

@@ -393,7 +393,6 @@ header {
   position: relative;
   justify-content: center;
   background-color: #383046;
-  background-image: url("./images/Header-03.4_75%.png");
   align-items: center;
   width: 100%;
 }
@@ -404,9 +403,9 @@ header:before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("./images/Header-03.4_75%.png");
+  background-image: url("../images/Header_lodge-main_colour.jpg");
   content: "";
-  opacity: 1;
+  opacity: 0;
   top: 0;
   right: 0;
   bottom: 0;

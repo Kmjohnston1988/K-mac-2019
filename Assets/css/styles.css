@@ -394,6 +394,9 @@ header {
   justify-content: center;
   background-color: #383046;
   align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/Header_lodge-main_colour.jpg");
   width: 100%;
 }
 
@@ -401,11 +404,8 @@ header:before {
   -webkit-animation: fade-slide-down 2s 0.3s cubic-bezier(0,.57,.51,1) forwards;
   animation: fade-slide-down 2s 0.3s cubic-bezier(0,.57,.51,1) forwards;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../images/Header_lodge-main_colour.jpg");
   content: "";
-  opacity: 1;
+  opacity: 0;
   top: 0;
   right: 0;
   bottom: 0;

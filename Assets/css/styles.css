@@ -230,7 +230,7 @@ a .btn-primary {
 }
 
 .active {
-  background-color: #EE726E;
+  background-color: #383046;
 }
 
 .hamburger {
@@ -1183,7 +1183,7 @@ footer p {
 
   .map--module--01 {
     width: 100%;
-    padding: 100px 15%;
+    padding: 100px 10%;
     display: flex;
   }
 
@@ -1262,7 +1262,7 @@ footer p {
   }
 
   ul.secondary--items {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
 
   li.menu--item a{

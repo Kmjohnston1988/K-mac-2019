@@ -393,6 +393,7 @@ header {
   position: relative;
   justify-content: center;
   background-color: #383046;
+  background-image: url("./images/Header-03.4_75%.png");
   align-items: center;
   width: 100%;
 }

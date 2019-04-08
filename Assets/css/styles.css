@@ -411,6 +411,9 @@ header:before {
   bottom: 0;
   left: 0%;
   position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/Header_lodge-main_colour.jpg");
   animation-delay: 0.2s;
 }
 

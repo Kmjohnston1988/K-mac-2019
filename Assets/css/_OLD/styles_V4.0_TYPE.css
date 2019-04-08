@@ -1,0 +1,63 @@
+/* Type styles */
+
+h1 {
+  font-family: 'big-caslon-fb', serif;
+  font-weight: 600;
+  font-size: 58pt;
+  color: #fff;
+  letter-spacing: 3px;
+  text-align: left;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+
+
+
+h3 {
+  font-family: 'big-caslon-fb', serif;
+  font-weight: 600;
+
+}
+
+
+
+.story--body a:link {
+  text-decoration: underline;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #E3B0A3;
+}
+
+.story--body a:hover {
+  text-decoration: none;
+  color: #E5C5BD;
+}
+
+
+
+span.copy--emphasis {
+  color: #E3B0A3;
+}
+
+span.btn-primary {
+  color: #fff;
+}
+
+
+
+/* Media queries */
+
+
+@media only screen and (max-width: 1366px) {
+
+  h1 {
+    font-size: 52pt;
+  }
+
+
+}
+
+@media only screen and (max-width: 992px) {
+
+
+}

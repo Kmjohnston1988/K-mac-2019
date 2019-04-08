@@ -2,110 +2,110 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Mac & Kev</title>
+    <title>Always come back</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="./Assets/Favicon.ico/favicon-96x96.png"
+    <link rel="shortcut icon" type="image/png" href="./Assets/Favicon.ico/favicon-96x96.png">
 
+    <!-- Device resize -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Reset CSS -->
     <link rel="stylesheet" href="./Assets/css/reset.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./Assets/css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Java -->
-    <link rel="stylesheet" href="./Assets/JS/wedding_Java_01.js">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./Assets/css/styles_V2.0.css">
+    <link rel="stylesheet" href="./Assets/css/Styles.css">
+    <link rel="stylesheet" href="./Assets/css/Animations+interactions.css">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/ang7vwk.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kdo8nna.css">
 
-    <!-- Hamburger -->
-
-    <!-- Device resize -->
-    <meta name="viewport" content="width=device-width" />
+    <!-- Hamburger menu -->
+    <link href="Assets/hamburgers-master/dist/hamburgers.css" rel="stylesheet">
 
   </head>
 
   <body>
 
+    <!-- Menu header -->
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <button class="hamburger hamburger--squeeze" type="button">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-            <span class="HOME">Menu</span>
-          </span>
-        </button>
+    <div class="header">
+      <button class="hamburger hamburger--squeeze" onclick="onClickHamburger()">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+        <span class="menu--text">Close</span>
+      </button>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 
+    <!-- THE OVERLAY -->
 
+    <div id="nav" class="nav">
+
+      <!-- Content -->
+      <div class="menu--content">
+        <ul class="">
+        <li class="menu--item main--items"><a href="index.html">Home</a></li>
+        <li class="menu--item main--items"><a href="RSVP.html">RSVP</a></li>
+        <li class="menu--item main--items"><a href="useful--info.html">Useful info</a></li>
+      </ul>
+      <div class="divider"></div>
+      <ul class="secondary--items">
+        <li class="menu--item--small"><a href="mailto:caitxkev@gmail.com">Contact</a></li>
+        <li class="menu--item--small"><a href="">Gift list</a></li>
+      </ul>
       </div>
-    </nav>
+
+      <!-- BG image -->
+      <svg class="maple--leaf"></svg>
+
+    </div>
 
 
-    <!-- Jumbotron - Header -->
-    <div class="carousel">
-      <div class="jumbotron jumbotron-mountains">
-        <div class="annotation">
-          <span class="descript">Oberstdorf, Germany, 2017 | <strong>Engagement trip</strong> </span>
-        </div>
-        <div class="scroll">
-          <a href="#Kev-mac"><img class="arrow" src="Assets/images/Arrow@1x_edit.svg"/></a>
-        </div>
-        <div class="container-fluid col-xs-12">
-          <div class="title-CTA">
-            <h1>Only fools rush in</h1>
-            <a href="#history"><span class="btn-primary">Watch a brief history</span></a>
+
+
+    <!-- Primary header -->
+
+    <header class="primary">
+        <div class="home--header--content">
+          <h1 class="primary--headline animate--pop-in">Caitlin <span>&</span> Kev are  getting <span>hitched.</span></h1>
+          <div class="actions">
+            <a href="RSVP.html"><span class="btn-primary home animate--pop-in">RSVP</span></a>
+            <a href="useful--info_V2.html"><span class="btn-primary home animate--pop-in">Useful stuff</span></a>
           </div>
         </div>
-      </div>
-    </div>
+        <svg class="header--divider animate--pop-in"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="#383046" points="0,100 100,0 100,100"/>
+        </svg>
+      </header>
 
 
-    <!-- Intro section V2 -->
-    <div id="Kev-mac"class="container-fluid">
-
-      <div class="row">
-        <div id="spacer" class="col-xs-1"></div>
-        <div id="column_01" class="col-xs-12 col-sm-6 col-md-5">
-          <img class="intro-image" src="./Assets/images/Intro image_02.png"/>
-          <img class="intro-image_mob" src="./Assets/images/Intro-image_mob.png"/>
-        </div>
-        <div id="spacer" class="col-xs-1"></div>
-        <div id="column_02" class="col-xs-12 col-sm-6 col-md-4">
-          <h2>11th August 2019. <br>We are getting married.</h2>
-          <p class="copy">Near. Far. Old and new. If you find yourself reading this chances are you have left an impression on our lives in some way. Fast forward. Next summer on 11th August 2019 we are getting married in Ottawa, Canada. <br><br>We are inviting you to save the date and share this day with us. Invitations will come nearer to the date and more detailed information will be added to this site. Please follow the link below to send us your address.<br><br>If you have any questions drop us an email at <a href="mailto:CaitxKev@gmail.com">CaitxKev@gmail.com.</a></p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBgyGz-LIePyX6P3x6Hi_jYZWspBSP5UYbJNmOtujxTD2vRw/viewform?usp=pp_url" target="_blank"><span class="btn-secondary">Send us your address</span></a>
-        </div>
-        <div id="spacer" class="col-xs-1"></div>
-      </div>
-
-    </div>
 
 
-    <!-- Video section -->
-    <div id="history" class="gallery container-fluid  col-xs-12">
-      <div class="Faces-places col-xs-12">
-        <iframe class="video" src="https://player.vimeo.com/video/226618179" width="720" height="439" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
+    <!-- Narrative -->
 
-    </div>
+    <section class="narrative">
+
+    </section>
+
+
 
 
     <!-- Footer -->
     <footer>
-      <div class="footer-content col-xs-12">
-        <p>Not created by robots... London, England, 2018</p>
+      <div class="footer-content useful--info col-xs-12">
+        <p>Coded with significant difficulty. London, 2019</p>
       </div>
     </footer>
 
 
 
-  </body>
+
+    </body>
+    <script  src="./Assets/JS/JS_main.js"></script>

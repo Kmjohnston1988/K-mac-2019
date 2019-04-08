@@ -1,62 +1,1932 @@
-/* Basic page branding */
+/* UNIVERSAL STYLES */
 
-html {
-  display: flex;
-}
 
-body {
-  background-color: #000;
-  font-family: Roboto, sans-serif
-}
+/* TYPOGRAPHY - UNIVERSAL STYLES */
 
-/* Type styles */
+
+/* ---- HEADLINES */
 
 h1 {
-  color: white;
-  font-size: 6.4rem;
-  font-weight: 700;
-  text-transform: Uppercase;
-  font-kerning: normal;
-  letter-spacing: 50px;
-  text-align: center;
+  font-family: 'big-caslon-fb', serif;
+  font-weight: 600;
+  font-size: 66pt;
+  color: #fff;
+  letter-spacing: 3px;
+  text-align: left;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: 'big-caslon-fb', serif;
+  font-weight: 600;
+  font-size: 44pt;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: left;
+  margin-top: 0px;
+  line-height: 63pt;
 }
 
 h4 {
-  color: white;
-  font-weight: 500;
-  font-size: 1.4rem;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  font-family: 'big-caslon-fb', serif;
+  font-size: 24pt;
+  line-height: 34pt;
+  font-weight: 600;
+  color: #000;
 }
 
+h5 {
+  font-family: 'raleway', sans-serif;
+  font-weight: 100;
+  font-size: 24pt;
+  line-height: 44pt;
+  color: #d5d5d5;
+}
+
+h6 {
+  font-size: 14pt;
+  padding: 50px 0 0 0;
+  line-height: 21pt;
+  font-weight: 600;
+  color: #404040;
+}
+
+/* ---- BODY, SPAN + OTHERS */
+
 p {
-  color: white;
-  font-weight: lighter;
-  margin-bottom: 80px;
-  line-height: 1.6rem;
+  font-family: 'raleway', sans-serif;
+  font-size: 13pt;
+  color: #404040;
 }
 
 span {
-  color: white;
+  font-family: 'raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+.copy--emphasis {
+  font-family: 'big-caslon-fb', serif;
+  font-size: 66pt;
+  color: #fff;
+}
+
+span.large--body {
+  font-size: 15pt;
+  line-height: 24pt;
+  font-weight: 600;
+  color: #404040;
+}
+
+.label {
+  color: #E3B0A3;
+  font-size: 13px;
   font-weight: 500;
-  text-transform: Uppercase;
   letter-spacing: 3px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-  padding: 20px;
+  text-transform: uppercase;
+  font-family: 'raleway', sans-serif;
+  padding: 0px;
 }
 
-/* ID rules */
+/* ---- */
 
-#Main-content {
+
+
+
+/* BUTTONS + OTHER ELEMENTS */
+
+
+.btn-primary {
+  font-family: raleway, sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   text-align: center;
-  vertical-align: middle;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  padding: 16px 24px;
+  border-radius: 2px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background-color: #DD4743;
+  color: #fff;
+  border-color: transparent;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+
+.when--where .btn-primary {
+  width: 210px;
+  height: 50px;
+}
+
+.btn-primary.RSVP {
+  margin-right: 20px;
+  width: 210px;
+}
+
+.btn-primary.RSVP:hover {
+  background-color: #DD4743;
+  color: #fff;
+  border-color: transparent;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+a .btn-primary {
+  text-decoration: none;
+}
+
+.btn-secondary {
+  font-family: raleway, sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  background-color: #E5C5BD;
+  padding: 16px 24px;
+  border-radius: 2px;
+  display: inline-block;
+  width: 210px;
+}
+
+.btn-secondary:hover {
+  background-color: #DD4743;
+  color: #fff;
+  border-color: transparent;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.btn-tertiary {
+  font-family: "raleway", sans-serif;
+  color: #000;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D5D5D5;
+  padding: 16px 24px;
+  border-radius: 2px;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.btn-tertiary:hover {
+  background-color: #DD4743;
+  color: #fff;
+  border-color: transparent;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.main--info {
+  padding: 0px 30px;
+  background-color: #fff;
+  z-index: 75;
+  position: relative;
+}
+
+.bottom--module {
+  padding-bottom: 6vh;
+  background-color: #fff;
+}
+
+
+/* ---- */
+
+
+
+/* HAMBURGER + MENU STYLES */
+
+.header {
+  position: fixed;
+	z-index: 1000;
+	height: 80px;
+  width: 100%;
+  display: block;
+	background: transparent;
+	padding: 10px;
+	-webkit-transition: all ease-out .5s;
+  -moz-transition: all ease-out .5s;
+  -o-transition: all ease-out .5s;
+  transition: all ease-out .5s;
   align-items: center;
 }
 
-#description {
-  width: 46%;
+.active {
+  background-color: #EE726E;
+}
+
+.hamburger {
+  position: fixed;
   align-items: center;
-  display: inline-block;
+}
+
+.nav {
+  background-color: #EE726E;
+  width: 100%;
+  height: 100vh;
+  padding: 10%;
+  vertical-align: middle;
+  display: block;
+  position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  z-index: 100;
+  visibility: hidden;
+}
+
+.main--items {
+  width: 50%;
+}
+
+.secondary--items {
+  margin-top: 40px;
+  display: block;
+  justify-content: left;
+  width: 50%;
+}
+
+li.menu--item a{
+  font-family: 'big-caslon-fb', serif;
+  font-weight: 600;
+  font-size: 44pt;
+  letter-spacing: 2px;
+  color: #fff;
+  padding-bottom: 0px;
+  display: block;
+  padding-left: 0px;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+li.menu--item:hover a{
+  transform: translateX(10px);
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+  text-decoration: none;
+  color: #000;
+}
+
+li.menu--item--small  {
+  padding-top: 8px;
+  font-family: 'raleway', sans-serif;
+  font-weight: 600;
+  font-size: 14pt;
+  letter-spacing: 0.4px;
+  color: #fff;
+}
+
+li.menu--item--small:hover  {
+  transform: translateX(4px);
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+  color: #404040;
+}
+
+span.menu--text {
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  color: #fff;
+  padding-left: 15px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+span.menu--label {
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  color: #fff;
+  padding-left: 15px;
+  visibility: visible;
+}
+
+span.menu--label.flip {
+  color: #101010;
+}
+
+.hamburger.flip {
+  color: #101010;
+}
+
+.icon {
+  width: 40px;
+  height: 43px;;
+  position: absolute;
+  justify-content: center;
+}
+
+.nav a {
+  color: #fff;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.divider {
+  background-color: #DD4743;
+  height: 4px;
+  width: 5%;
+  margin-top: 40px;
+
+}
+
+.maple--leaf {
+  background-image: url("../images/_Body/Maple leaf large.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  opacity: 0.5;
+}
+
+/* ---- */
+
+
+
+
+/* HEADERS - UNIVERSAL STYLES */
+
+
+/* ---- 01 Header - PRIMARY */
+
+header {
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  background-color: #383046;
+  align-items: center;
+  width: 100%;
+}
+
+header:before {
+  -webkit-animation: fade-slide-down 2s 0.3s cubic-bezier(0,.57,.51,1) forwards;
+  animation: fade-slide-down 2s 0.3s cubic-bezier(0,.57,.51,1) forwards;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/Header-03.4_75%.png);
+  content: "";
+  opacity: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0%;
+  position: absolute;
+  animation-delay: 0.2s;
+}
+
+.home--header--content {
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.primary--headline {
+  padding: 0 15%;
+  display: block;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  font-size: 76pt;
+  line-height: 80pt;
+  animation-delay: 0.8s;
+}
+
+.primary--headline span {
+  font-family: 'big-caslon-fb', serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #E3B0A3;
+}
+
+.btn-primary.home {
+  color: #fff;
+  width: 230px;
+  margin: 50px 10px 20px 10px;
+  animation-delay: 0.4s;
+  position:relative;
+}
+
+.actions {
+  justify-content: center;
+  display: flex;
+}
+
+/* ---- */
+
+/* ---- 02 Header - SECONDARY */
+
+.secondary--header{
+  height: 70vh;
+  background-color: #383046;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -10;
+  width: 100%;
+  background-color: #383046;
+}
+
+.header--title.simple--fade {
+  animation-delay: 0.2s;
+}
+
+.header--divider {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+  /* set height to pixels if you want angle to change with screen width */
+}
+
+.secondary--header.RSVP--header {
+  background-image: url("../images/_Headers/Header_lodge-main_colour.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-color: #383046;
+  animation-delay: 0.6s
+}
+
+.secondary--header.RSVP--header:after {
+  background-image: url("../images/_Headers/Header_lodge-main_colour.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-color: #383046;
+  animation-delay: 0.6s;
+}
+
+.secondary--header.Useful--things--header {
+  background-image: url("../images/_Headers/Header_Useful-things.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #d5d5d5;
+}
+
+.secondary--header h1 {
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.header--content {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+.header--content .btn-primary.RSVP {
+  margin-top: 20px;
+  animation-delay: 0.4s;
+}
+
+/* ---- */
+
+
+/* ---- NARRATIVE */
+
+.narrative {
+  height: 100vh;
+  background-color: #383046;
+  position: relative;
+  bottom: 0;
+  display: none;
+}
+
+/* ---- */
+
+
+/* INFO BLOCKS - UNIVERSAL STYLES */
+
+
+.info--container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+hr.divider--stroke {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height:6px;
+  color: #f6f6f6;
+}
+
+h5.h5--bar--WO {
+  font-family: "raleway", sans-serif;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 15pt;
+}
+
+p.info--body {
+  font-size: 13pt;
+  padding: 50px 0 0 0;
+  line-height: 24pt;
+  color: #404040;
+}
+
+p.info--body.intro {
+  padding: 32px 0 0 0;
+}
+
+p.p--bar--WO {
+  color: #fff;
+  padding: 0;
+  font-size: 12pt;
+  line-height: 21pt;
+  margin-bottom: 0px;
+}
+
+p.info--body.module--02--body {
+  padding: 24px 0 0 0;
+}
+
+.info--actions {
+  margin-top: 60px;
+}
+
+/* ---- */
+
+
+
+
+/* ------------------------------------------------------------------------- */
+
+
+
+
+/* PAGE: RSVP STYLES */
+
+
+/* ---- Info module - 01 - RSVP - INTRO */
+
+.RSVP--body {
+  padding-top: 20px;
+}
+
+h6.RSVP--body {
+  margin: 0px 0px;
+}
+
+p.info--body.RSVP--body {
+  padding-top: 30px;
+}
+
+p.info--body.RSVP--body.first {
+  padding-top: 60px;
+}
+
+.btn-secondary.RSVP {
+  margin-top: 50px;
+}
+
+
+/* ---- */
+
+
+/* ---- Info bar - 02 */
+
+.info--bar--02.gifts:hover {
+  background-color: #e9e9e9;
+  border-color: transparent;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+.info--bar--02 {
+  display: inline-flex;
+  background-color: #f6f6f6;
+  height: 140px;
+  margin: 0 0px 100px 0px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.info--bar--col--01 {
+  padding-right: 60px;
+}
+
+.info--bar--02 .info--bar--col--02 {
+  width: 65%;
+  margin-right: 20px;
+}
+
+h5.h5--info--02 {
+  font-family: "raleway", sans-serif;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 15pt;
+}
+
+p.p--bar--02 {
+  color: #404040;
+  padding: 0;
+  font-size: 12pt;
+  line-height: 20pt;
+  margin-bottom: 0px;
+}
+
+
+/* ---- */
+
+
+/* ---- Gallery */
+
+.gallery {
+  display: none;
+}
+
+.Faces-places {
+  display: none;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+
+
+
+
+/* PAGE: USEFUL INFO STYLES */
+
+
+/* ---- 01 Info module - 01 */
+
+.info--module--01 {
+  display: flex;
+  Margin: 100px 0 100px 0;
+}
+
+.info--module--01 .module--fade {
+  Margin: 100px 0 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  animation-delay: 1s;
+}
+
+.left {
+  background-color: #d5d5d5;
+  background: transparent;
+  width: 40%;
+}
+
+.right {
+  background-color: #787878;
+  background: transparent;
+  padding-left: 80px;
+  width: 61%;
+}
+
+/* ---- */
+
+
+/* ---- 01 Info module - 02 */
+
+.info--module--02 {
+  Margin: 100px 0 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left.info--image {
+  background-color: #d5d5d5;
+  width: 35%;
+  min-height: 425px;
+  height: 100%;
+  background-image: url("../images/_body/ottawa.jpg");
+  background-size: cover;
+  background-position: 18% 50%;
+  background-repeat: no-repeat;
+}
+
+.left.info--image.transport {
+  background-color: #d5d5d5;
+  width: 35%;
+  min-height: 425px;
+  height: 100%;
+  background-image: url("");
+  background-size: cover;
+  background-position: ;
+  background-repeat: no-repeat;
+}
+
+.info--module--02 .right h6 {
+  margin-top: 0px;
+}
+
+.info--module--02 .right {
+  margin: 20px 0;
+}
+
+.info--actions a .btn-tertiary {
+  margin-right: 20px;
+  width: 210px;
+}
+
+/* ---- */
+
+
+/* ---- Map module - 01 */
+
+.map--module--01 {
+  position: relative;
+  display: block;
+  background-color: #383046;
+  padding: 100px 20%;
+  width: 100%;
+  background-image: url("../images/_body/Ottawa_Map_image_01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.centre.map {
+  width: 100%
+}
+
+.info--actions.map {
+  margin-top: 0px;
+  display: block;
+}
+
+h5.location {
+  font-size: 24pt;
+  font-weight: 400;
+  line-height: 34pt;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+
+/* ---- */
+
+
+/* ---- Info bar - 01 */
+
+.info--bar--01 {
+  display: inline-flex;
+  background-color: #EE726E;
+  height: 140px;
+  margin: 0 0px 100px 0px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.info--bar--01:hover {
+  background-color: #DD4743;
+  border-color: transparent;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+.info--bar--col--01 {
+  padding-right: 60px;
+}
+
+.info--bar--col--02 {
+  width: 60%;
+  margin-right: 90px;
+}
+
+.info--bar--CTA {
+  width: 180px;
+}
+
+.info--bar--CTA:hover {
+  background-color: #404040;
+  border-color: transparent;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+/* ---- */
+
+
+
+/* ------------------------------------------------------------------------- */
+
+
+
+
+/* Footer */
+
+footer {
+  display: block;
+  position: relative;
+  z-index: 80;
+  border-top: solid #f6f6f6 2px;
+}
+
+footer .home {
+  display: none;
+}
+
+.footer-content {
+  padding: 36px 26px 26px 26px;
+  vertical-align: middle;
+  background-color: #ffffff;
+}
+
+footer p {
+  text-align: center;
+  font-family: "raleway", sans-serif;
+  font-weight: 600;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #787878;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* BREAKPOINTS */
+
+.spacer {
+  height: 100px;
+  background-color: red;
+  opacity: 0.2;
+}
+
+
+/* ---- Add descriptor in */
+
+@media screen and (max-width: 600px) {
+
+  .main--info {
+    top: 0;
+    padding: 0 0;
+  }
+
+
+
+  /* ---- Buttons */
+
+  .btn-secondary {
+    width: 100%;
+    height: 60px;
+    flex-wrap: wrap;
+  }
+
+  .btn-tertiary {
+    width: 100%;
+    height: 60px;
+  }
+
+  /* ---- */
+
+
+  /* ---- Type styles */
+
+    h1 {
+      font-size: 40pt;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    h2 {}
+
+    h4 {
+      font-size: 30pt;
+      line-height: 36pt
+    }
+
+    h5 {
+      font-size: 22pt;
+      line-height: 42pt;
+    }
+
+    h6 {
+      font-size: 20pt;
+      line-height: 28pt;
+    }
+
+    p {}
+
+    span {}
+
+    span.large--body {
+      font-size: 15pt;
+      line-height: 28pt;
+      font-weight: 600;
+      color: #404040;
+    }
+
+    .label {}
+
+    /* ---- */
+
+  /* ---- Headers */
+
+    /* ---- Primary */
+
+    .home--header--content {
+      padding: 20px;
+      width: 100%;
+    }
+
+    .primary--headline {
+      padding: 0 0px;
+      font-size: 38pt;
+      line-height: 42pt;
+      animation-delay: 0.8s;
+    }
+
+    .btn-primary.home {
+      margin: 10px 0px;
+      animation-delay: 0.4s;
+      width: 315px;
+    }
+
+    .actions {
+      flex-wrap: wrap;
+      margin: 30px 0px 0px 0px;
+    }
+
+    .header--divider {
+      height: 10%;
+    }
+
+    /* ---- Secondary */
+
+    .secondary--header {
+      height: 60vh;
+    }
+
+    .btn-primary.RSVP {
+      margin-right: 0px;
+      width: 50%;
+    }
+
+    .secondary--header {
+      width: 100%;
+      padding: 100px 30px;
+      height: 70vh;
+      display: flex;
+    }
+
+    h1.header--title {
+      font-size: 48pt;
+      font-weight: 600;
+      letter-spacing: 0px;
+    }
+
+  /* ---- */
+
+
+  /* ---- Universal info styles */
+
+  .info--container {
+    height: auto;
+    display: block;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+    padding-left: 0;
+    display: block;
+  }
+
+  hr.divider--stroke {
+    margin: 0px 0;
+    height: 2px;
+    width: auto;
+  }
+
+  /* ---- */
+
+
+  /* ---- Info module 01 */
+
+  .info--module--01 {
+    margin: 80px 0;
+    flex-wrap: wrap;
+    padding: 0 24px;
+  }
+
+  p.info--body {
+    font-size: 14pt;
+    line-height: 26pt;
+  }
+
+  p.info--body.intro {
+    padding: 50px 0 0 0;
+  }
+
+  .right.RSVP--content {
+    margin-top: 50px;
+  }
+
+  /* ---- */
+
+
+  /* ---- Info module 02 */
+
+  .left.info--image {
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .info--module--02 {
+    margin: 80px 0;
+    flex-wrap: wrap;
+    display:flex;
+    padding: 0 24px;
+  }
+
+  .left.info--image.transport {
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .info--actions a .btn-tertiary {
+    width: 100%;
+    height: 60px;
+    flex-wrap: wrap;
+  }
+
+  .last--button {
+    margin-top: 20px;
+  }
+
+  /* ---- */
+
+
+  /* ---- Info bar 01 */
+
+  .info--bar--01 {
+    flex-wrap: wrap;
+    display: flex;
+    height: auto;
+    padding: 60px 30px;
+  }
+
+  .info--bar--col--01 {
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  .info--bar--col--02 {
+    width: 100%;
+    margin: 10px 0 50px 0;
+  }
+
+  h5.h5--bar--WO {
+    font-size: 20pt;
+  }
+
+  .btn-primary.info--bar--CTA {
+    width: 100%;
+  }
+
+  /* ---- */
+
+
+  /* ---- Info bar 02 */
+
+  .info--bar--02 {
+    flex-wrap: wrap;
+    display: flex;
+    height: auto;
+    padding: 60px 30px;
+    margin-bottom: 0px;
+  }
+
+  .info--bar--col--01 {
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  .info--bar--col--02.last--col {
+    width: 100%;
+    margin: 10px 0 10px 0;
+  }
+
+  .info--bar--02 .info--bar--col--02 {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  /* ---- */
+
+
+  /* ---- Map module */
+
+  .map--module--01 {
+    width: 100%;
+    padding: 100px 15%;
+    display: flex;
+  }
+
+  h5.location {
+    font-size: 20pt;
+    margin-bottom: 0px;
+  }
+
+  .right.RSVP--content {
+    margin-top: 40px;
+  }
+
+  .btn-primary.RSVP {
+    margin-right: 0px;
+  }
+
+  /* ---- */
+
+
+  /* ---- Overlay menu */
+
+  .hamburger {
+    position: fixed;
+  }
+
+  .nav {
+    background-color: #EE726E;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    z-index: 100;
+    visibility: hidden;
+  }
+
+  .nav.expanded {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .maple--leaf {
+    background-image: url("../images/_Body/Maple leaf large.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    opacity: 0.5;
+    align-items: center;
+    margin-left: 22%;
+  }
+
+  .menu--content {
+    position: relative;
+    flex-wrap: wrap;
+    z-index: 2000;
+
+  }
+
+  .main--items {
+    width: auto;
+  }
+
+  .secondary--items {
+    margin-top: 24pt;
+    display: block;
+    justify-content: left;
+    width: 50%;
+  }
+
+  ul.secondary--items {
+    margin-bottom: 20px;
+  }
+
+  li.menu--item a{
+    font-family: 'big-caslon-fb', serif;
+    font-weight: 600;
+    font-size: 40pt;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-bottom: 5px;
+    display: block;
+    padding-left: 0px;
+  }
+
+  li.menu--item:hover a{
+    transform: translateX(10px);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+    text-decoration: none;
+    color: #000;
+  }
+
+  li.menu--item--small  {
+    padding-top: 8px;
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14pt;
+    letter-spacing: 0.4px;
+    color: #fff;
+  }
+
+  li.menu--item--small:hover  {
+    transform: translateX(4px);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+    color: #404040;
+  }
+
+  .menu--text {
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    color: #fff;
+    padding-left: 15px;
+    visibility: hidden;
+  }
+
+  .nav a {
+    color: #fff;
+  }
+
+  .nav a:hover {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .divider {
+    background-color: #DD4743;
+    height: 4px;
+    width: 40%;
+    margin-top: 40px;
+
+  }
+
+  /* ---- */
+
+}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+
+  /* ---- Buttons */
+
+  .btn-primary {
+    height: 64px;
+    font-size: 12pt;
+  }
+
+  .btn-secondary {
+    height: 64px;
+    font-size: 12pt;
+  }
+
+  .btn-tertiary {
+    height: 64px;
+    font-size: 12pt;
+  }
+
+  /* ---- */
+
+
+  /* ---- Type styles */
+
+  h1 {
+    font-size: 54pt;
+  }
+
+  h2 {}
+
+  h4 {
+    font-size: 32pt;
+    margin-bottom: 0rem;
+  }
+
+  h5 {}
+
+  h6 {
+    font-size: 16pt;
+  }
+
+  p {
+
+  }
+
+  span {}
+
+  span.large--body {}
+
+  .label {
+    font-size: 15px;
+  }
+
+  /* ---- HEADERS */
+
+  .home--header--content {
+  }
+
+  .primary--headline {
+    font-size: 64pt;
+    line-height: 68pt;
+  }
+
+  .primary--headline span {
+    font-family: 'big-caslon-fb', serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #E3B0A3;
+  }
+
+  .btn-primary.home {
+    width: 400px;
+    margin: 10px 10px;
+  }
+
+  .actions {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 60px;
+  }
+
+  /* ---- */
+
+
+  /* ---- Universal info styles */
+  /* ---- */
+
+
+  /* ---- Info module 01 */
+
+    .info--module--01 {
+    margin: 80px 0;
+    flex-wrap: wrap;
+    padding: 0 0px;
+    justify-content: center;
+  }
+
+    span.large--body {
+    font-size: 16pt;
+    line-height: 30pt;
+  }
+
+    p.info--body {
+      font-size: 14pt;
+      line-height: 28pt;
+    }
+
+    p.info--body.intro {
+    padding: 0px 0px 0px 0px;
+  }
+
+    .left {
+    width: 76%;
+  }
+
+    .right {
+      width: 76%;
+      padding-left: 0px;
+      padding-top: 70px;
+    }
+
+    .right.RSVP--content {
+    margin-top: 0px;
+  }
+
+    .btn-secondary.RSVP {
+    margin-top: 60px;
+    width: 100%;
+    height: 64px;
+  }
+
+  /* ---- */
+
+
+  /* ---- Info module 02 */
+
+    /* ---- Images */
+
+    .left.info--image {
+      width: 100%;
+      max-height: 300px;
+      margin-bottom: 20px;
+    }
+
+    .left.info--image.transport {
+      width: 100%;
+      max-height: 300px;
+      margin-bottom: 20px;
+    }
+
+    /* ---- Body */
+
+    .info--module--02 {
+      margin: 80px 0;
+      padding: 0 0px;
+      justify-content: center;
+    }
+
+    .info--module--02 .right {
+      margin: 0px 0px;
+    }
+
+    p.info--body.module--02--body {
+      padding: 70px 0px 0px;
+    }
+
+    .info--actions a .btn-tertiary {
+      width: 100%;
+      height: 64px;
+      flex-wrap: wrap;
+    }
+
+    .last--button {
+      margin-top: 30px;
+    }
+
+  /* ---- */
+
+
+  /* ---- Info---bars */
+
+    .info--bar--01 {
+      flex-wrap: wrap;
+      display: flex;
+      height: auto;
+      padding: 40px 40px;
+    }
+
+    .info--bar--02 {
+      flex-wrap: wrap;
+      display: flex;
+      height: auto;
+      padding: 40px 10%;
+      margin: 0px;
+    }
+
+    .info--bar--col--01 {
+      width: 100%;
+      padding-right: 0px;
+    }
+
+    .info--bar--col--02 {
+      width: 100%;
+      margin: 15px 0px 40px 0px;
+    }
+
+    .info--bar--02 .info--bar--col--02 {
+      width: 100%;
+      margin-right: 0px;
+    }
+
+    h5.h5--bar--WO {
+      font-size: 20pt;
+      line-height: 24pt;
+    }
+
+    h5.h5--info--02 {
+      font-size: 20pt;
+    }
+
+    .info--bar--CTA {
+    }
+
+  /* ---- */
+
+
+  /* ---- Map module */
+
+  .map--module--01 {
+    width: 100%;
+    padding: 100px 10%;
+    display: flex;
+  }
+
+  h5.location {
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+
+  .btn-primary.map--CTA {
+    width: 35%;
+  }
+
+  /* ---- */
+
+
+  /* ---- Overlay menu */
+
+  .nav {
+    background-color: #EE726E;
+    width: 100%;
+    height: 100vh;
+    padding: 10%;
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    z-index: 100;
+    visibility: hidden;
+  }
+
+  .maple--leaf {
+    background-image: url("../images/_Body/Maple leaf large.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    opacity: 0.5;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 15%;
+  }
+
+  .menu--content {
+    width: 100%;
+  }
+
+  .secondary--items {
+    margin-top: 24pt;
+  }
+
+  ul.secondary--items {
+    margin-bottom: 0px;
+  }
+
+  li.menu--item a{
+    font-size: 60pt;
+  }
+
+  .main--items {
+    width: auto;
+    z-index: 2000;
+  }
+
+  li.menu--item--small  {
+    padding-top: 8px;
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18pt;
+    letter-spacing: 0.4px;
+    color: #fff;
+  }
+
+  li.menu--item--small:hover  {
+    transform: translateX(4px);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+    color: #404040;
+  }
+
+  .menu--text {
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    color: #fff;
+    padding-left: 15px;
+    visibility: hidden;
+  }
+
+  .nav a {
+    color: #fff;
+  }
+
+  .nav a:hover {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .divider {
+    background-color: #DD4743;
+    height: 4px;
+    width: 20%;
+    margin-top: 40px;
+
+  }
+
+  /* ---- */
+
+}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+
+@media only screen and (min-width: 901px) and (max-width: 1080px) {
+
+
+  /* ---- Buttons */
+
+    .btn-primary {
+      height: 64px;
+      font-size: 12pt;
+    }
+
+    .btn-secondary {
+      height: 64px;
+      font-size: 12pt;
+    }
+
+    .btn-tertiary {
+      height: 64px;
+      font-size: 12pt;
+    }
+
+  /* ---- */
+
+
+  /* ---- Type styles */
+
+    h1 {
+      font-size: 60pt;
+    }
+
+    h2 {}
+
+    h4 {
+      font-size: 32pt;
+    }
+
+    h5 {}
+
+    h6 {}
+
+    p {}
+
+    span {}
+
+    span.large--body {}
+
+    .label {}
+
+  /* ---- */
+
+
+  /* ---- Headers */
+  /* ---- */
+
+
+
+  /* ---- Universal info styles */
+  /* ---- */
+
+
+
+  /* ---- Info module 01 */
+
+    .info--module--01 {
+      margin: 80px 0;
+      flex-wrap: wrap;
+      padding: 0 0px;
+      justify-content: center;
+    }
+
+    span.large--body {
+      font-size: 16pt;
+      line-height: 30pt;
+    }
+
+    p.info--body {
+      font-size: 14pt;
+      line-height: 28pt;
+    }
+
+    p.info--body.intro {
+      padding: 0px 0px 0px 0px;
+    }
+
+    .info--module--01 .left {
+      width: 80%;
+    }
+
+    .info--module--01 .right {
+      width: 80%;
+      padding-left: 0px;
+      padding-top: 70px;
+    }
+
+    .right.RSVP--content {
+      margin-top: 0px;
+    }
+
+    .btn-secondary.RSVP {
+      margin-top: 60px;
+      width: 100%;
+      height: 64px;
+    }
+
+  /* ---- */
+
+
+  /* ---- Info module 02 */
+
+    /* ---- Images */
+
+    .left.info--image {
+      width: 100%;
+      height: 20%;
+    }
+
+    .left.info--image.transport {
+      width: 100%;
+      height: 20%;
+    }
+
+    /* ---- Body */
+
+    .info--module--02 {
+      margin: 80px 0;
+      flex-wrap: wrap;
+      padding: 0 0px;
+      justify-content: center;
+    }
+
+    .info--module--02 .right {
+      width: 80%;
+      padding-left: 0px;
+      padding-top: 70px;
+    }
+
+    p.info--body.module--02--body {
+      padding: 70px 0px 0px 0px;
+    }
+
+    .info--actions a.btn-tertiary {
+      height: 64px;
+      display: inline-flex;
+      width: 100%;
+      font-size: 12pt;
+    }
+
+    .info--actions {
+      margin-top: 60px;
+      font-size: 12pt;
+    }
+
+    .last--button {
+    }
+
+  /* ---- */
+
+
+  /* ---- Info bar 01 */
+
+    .info--bar--01 {
+      flex-wrap: wrap;
+      display: flex;
+      height: auto;
+      padding: 40px 10%;
+    }
+
+    .info--bar--02 {
+      flex-wrap: wrap;
+      display: flex;
+      height: auto;
+      padding: 40px 10%;
+      margin: 0px;
+    }
+
+    .info--bar--col--01 {
+      width: 100%;
+      padding-right: 0px;
+    }
+
+    .info--bar--col--02 {
+    width: 100%;
+    margin: 15px 0px 40px 0px;
+  }
+
+    .info--bar--02 .info--bar--col--02 {
+      width: 100%;
+      margin-right: 0px;
+    }
+
+    h5.h5--bar--WO {
+      font-size: 20pt;
+      line-height: 24pt;
+    }
+
+    h5.h5--info--02 {
+      font-size: 20pt;
+    }
+
+    .info--bar--CTA {}
+
+  /* ---- */
+
+
+  /* ---- Info bar 02 */
+  /* ---- */
+
+
+  /* ---- Map module */
+  /* ---- */
+
+
+  /* ---- Overlay menu */
+
+    .maple--leaf {
+      background-image: url("../images/_Body/Maple leaf large.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      opacity: 0.5;
+      align-items: center;
+      margin-left: 35%;
+      margin-top: 15%;
+    }
+
+  /* ---- */
+
 }

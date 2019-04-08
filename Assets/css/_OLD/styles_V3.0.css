@@ -1,0 +1,452 @@
+/* Overarching elements */
+
+body {
+  background-color: #ffffff;
+}
+
+html {
+  display: block;
+}
+
+code {
+  display: inline-block;
+}
+
+/* ---- */
+
+
+/* Menu */
+
+/* ---- */
+
+
+/* Hamburger */
+
+
+/* ---- */
+
+
+/* Buttons */
+
+.btn-primary {
+  background-color: #1c1c1c;
+  border-radius: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 30px 15px 30px;
+  letter-spacing: 3px;
+  font-family: 'source-sans-pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+}
+
+.btn-primary:hover {
+  background-color: #000000;
+  transition: 1s;
+}
+
+.btn-secondary {
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 25px 20px 25px;
+  letter-spacing: 3px;
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  align-items: center;
+}
+
+.btn-secondary:hover {
+  background-color: #000;
+  transition: 0.5s;
+  color: #fff
+}
+
+.scroll {
+  align-items: center;
+  display: block;
+  bottom: 77px;
+  position: absolute;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  fill: #ffffff;
+  padding: 16px 15px 14px 15px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 2px;
+  border-radius: 25px;
+  left: auto;
+}
+
+.arrow:hover {
+  background-color: #f6f6f6;
+  fill: #000000;
+  transition: 0.25s;
+}
+
+.arrow:active {
+  background-color: #d5d5d5;
+  border-color: #d5d5d5;
+  transition: 0.5s;
+}
+
+/* ---- */
+
+
+/* Footer */
+
+footer {
+  background-color: #ffffff;
+  display: block;
+  z-index: 3;
+}
+
+.footer-content {
+  padding: 36px 26px 26px 26px;
+  vertical-align: middle;
+
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #787878;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---- */
+
+
+/* -------------------------------------------------------------------------- */
+
+/* Type styles */
+
+h1 {
+  font-family: 'big-caslon-fb', serif;
+  font-weight: 700;
+  font-size: 24rem;
+  color: #fff;
+  letter-spacing: 6px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h2 {
+  font-family: 'big-caslon-fb', serif;
+  font-size: 4.2rem;
+  font-weight: 600;
+  line-height: 5.4rem;
+}
+
+h3 {
+  font-family: 'big-caslon-fb', serif;
+  font-weight: 400;
+  font-size: 4.0rem;
+  line-height: 6.0rem;
+  color: #404040;
+  letter-spacing: 1px;
+}
+
+h3 strong {
+  color: #000;
+}
+
+p {
+  font-family: 'source-sans-pro', sans-serif;
+  font-weight: 300;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  color: #787878;
+}
+
+span.menu-text {
+  color: #fff;
+  font-family: 'source-sans-pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Breakpoints--1366+ */
+
+/* ---- 01 Jumbotron - Header */
+
+.jumbotron-mountains {
+  background-color: #e8e8e8;
+  height: 100vh;
+  width: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image:url("../images/Header_BG_01.png");
+  background-attachment: Fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  z-index: 60;
+  display: ;
+}
+
+.jumbotron .col-xs-12 {
+  background-color:;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron h1 {
+  font-family: 'big-caslon-fb', serif;
+  font-weight: 900;
+  font-size: 10rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+  text-shadow:0px 0px 30px #585858;
+}
+
+.title-CTA {
+  display: block;
+  align-items: center;
+}
+
+.annotation {
+  background-color: #1c1c1c;
+  display: inline-flex;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  font-weight:300;
+  letter-spacing: 1px;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.annotation:hover {
+  opacity: 1;
+}
+
+/* ---- */
+
+/* ---- 02 Story */
+
+.story {
+  display: block;
+}
+
+.story--background--text {
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+  z-index: -1;
+  display: inline-block;
+  top: 30%;
+  opacity: 0.2;
+  position: fixed;
+}
+
+.story--background--text h1 {
+  font-size: 38rem;
+  color: #BCB5AE;
+  display: inline-flex;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.story--main--text h3 {
+  padding: 15% 22% 15% 22%;
+  color: #404040;
+  z-index: 2;
+}
+
+.story--main--text h3 a {
+  font-weight: 600;
+  color: #5B94EC;
+  text-decoration: underline;
+}
+
+.story--main--text h3 a:hover {
+  color: #AEC3E4;
+}
+/* ---- */
+
+/* Gallery section - V2 */
+
+.gallery {
+  height: 100vh;
+  display: flex;
+  background-image: url("../images/Gallery image_01.png");
+  background-attachment: fixed;
+  background-position: left;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Faces-places {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* ---- */
+
+/* -------------------------------------------------------------------------- */
+
+/* Breakpoints--992-1366 */
+
+@media only screen and (max-width: 1366px) {
+
+  /* ---- 01 Jumbotron - Header */
+
+  .jumbotron h1 {
+    font-size: 9rem;
+  }
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Breakpoints--768-992 */
+
+@media only screen and (max-width: 992px) {
+
+  /* ---- 01 Jumbotron - Header */
+
+  .jumbotron h1 {
+    font-size: 9.4rem;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  /* ---- */
+
+}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/* Breakpoints--600-768 */
+
+@media only screen and (max-width: 767px) {
+
+  /* ---- 01 Jumbotron - Header */
+
+  .jumbotron h1 {
+    font-size: 8rem;
+  }
+
+  /* ---- */
+
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/* Breakpoints--600-768 */
+
+@media only screen and (max-width: 599px) {
+
+  /* ---- 01 Jumbotron - Header */
+
+  .jumbotron h1 {
+    font-size: 6rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* ---- */
+
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+/* Breakpoints--400 */
+
+/* ---- 01 Jumbotron - Header */
+
+@media only screen and (max-width: 400px) {
+
+  .jumbotron-mountains {
+    background-color: #e8e8e8;
+    height: 100vh;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image:url("../images/Header_BG_01.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+  }
+
+  .annotation {
+    width: 100%;
+    display: block;
+    text-align: center;
+    opacity: 1;
+    padding: 20px 20px;
+  }
+
+  .jumbotron h1 {
+    font-size: 6rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .jumbotron .col-xs-12 {
+    padding-bottom: 77px;
+  }
+
+  .btn-primary {
+    align-items: center;
+  }
+
+  /* ---- */
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+  .navbar {
+    background-color: #1c1c1c; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -64px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+
+}

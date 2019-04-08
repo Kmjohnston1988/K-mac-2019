@@ -1,0 +1,101 @@
+/* ---- 00 Overarching elements */
+
+hr {
+  color: #d5d5d5;
+  display: block;
+}
+
+/* ---- */
+
+
+
+
+/* ---- 01 Header - SECONDARY */
+
+.secondary--header {
+  height: 64vh;
+  background-color: #383046;
+  background-position: center -84px;
+  background-image: ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header--intro {
+  position: relative;
+  left: 16%;
+  display: none;
+}
+
+.header--intro h2{
+  margin-bottom: 60px;
+}
+
+/* ---- */
+
+
+
+
+/* ---- 01 Info module - Travel */
+
+.info--para--01 {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+}
+
+p.travel--body {
+  padding: 32px 0 0 60px;
+  font-family: 'raleway', serif;
+  font-size: 13pt;
+  font-weight: 400;
+  line-height: 25pt;
+  color: #404040;
+}
+
+.visa--bar {
+  background-color: #EE726E;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  padding: 34px 30px;
+  justify-content: center;
+}
+
+span.visa--title {
+  font-family: 'raleway', serif;
+  font-size: 17pt;
+  font-weight: 600;
+  color: #fff;
+  float: left;
+  padding-right: 80px;
+}
+
+p.visa--descript {
+  font-size: 13pt;
+  color: #fff;
+  float: center;
+  line-height: 21pt;
+  font-weight: 200;
+  margin-bottom: 0;
+  padding-right: 70px;
+}
+
+.btn-primary.Visa {
+  position: relative;
+  justify-content: flex-end;
+  width: 160px;
+}
+
+/* ---- */
+
+
+
+/* ---- 02 Where to stay */
+
+
+
+
+
+/* ---- */

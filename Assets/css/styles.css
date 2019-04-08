@@ -410,7 +410,7 @@ header:before {
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../images/Header-03.4_75%.jpg");
+  background-image: url("../images/Header_lodge-main_colour.jpg");
   animation-delay: 0.2s;
 }
 
@@ -516,7 +516,7 @@ header:before {
   text-align: center;
 }
 
-.header--content .btn-primary.RSVP {
+.header--content a.btn-primary.RSVP {
   margin-top: 20px;
   animation-delay: 0.4s;
 }

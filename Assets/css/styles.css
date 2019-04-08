@@ -405,7 +405,7 @@ header:before {
   background-repeat: no-repeat;
   background-image: url("../images/Header_lodge-main_colour.jpg");
   content: "";
-  opacity: 0;
+  opacity: 1;
   top: 0;
   right: 0;
   bottom: 0;

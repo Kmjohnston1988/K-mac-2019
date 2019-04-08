@@ -360,7 +360,7 @@ span.menu--label.flip {
 }
 
 .maple--leaf {
-  background-image: url("../images/_Body/Maple leaf large.svg");
+  background-image: url("../images/Maple leaf large.svg");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -480,7 +480,7 @@ header:before {
 }
 
 .secondary--header.RSVP--header {
-  background-image: url("../images/_Headers/Header_lodge-main_colour.jpg");
+  background-image: url("../images/Header_lodge-main_colour.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -489,7 +489,7 @@ header:before {
 }
 
 .secondary--header.RSVP--header:after {
-  background-image: url("../images/_Headers/Header_lodge-main_colour.jpg");
+  background-image: url("../images/Header_lodge-main_colour.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -498,7 +498,7 @@ header:before {
 }
 
 .secondary--header.Useful--things--header {
-  background-image: url("../images/_Headers/Header_Useful-things.jpg");
+  background-image: url("../images/Header_Useful-things.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -742,7 +742,7 @@ p.p--bar--02 {
   width: 35%;
   min-height: 425px;
   height: 100%;
-  background-image: url("../images/_body/ottawa.jpg");
+  background-image: url("../images/ottawa.jpg");
   background-size: cover;
   background-position: 18% 50%;
   background-repeat: no-repeat;
@@ -783,7 +783,7 @@ p.p--bar--02 {
   background-color: #383046;
   padding: 100px 20%;
   width: 100%;
-  background-image: url("../images/_body/Ottawa_Map_image_01.jpg");
+  background-image: url("../images/Ottawa_Map_image_01.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -406,7 +406,7 @@ header:before {
   background-repeat: no-repeat;
   background-image: url("./images/Header-03.4_75%.png");
   content: "";
-  opacity: 0;
+  opacity: 1;
   top: 0;
   right: 0;
   bottom: 0;

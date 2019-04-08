@@ -400,22 +400,6 @@ header {
   width: 100%;
 }
 
-header:before {
-  -webkit-animation: fade-slide-down 2s 0.3s cubic-bezier(0,.57,.51,1) forwards;
-  animation: fade-slide-down 2s 0.3s cubic-bezier(0,.57,.51,1) forwards;
-  background-size: cover;
-  content: "";
-  opacity: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0%;
-  position: absolute;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../images/Header_lodge-main_colour.jpg");
-  animation-delay: 0.2s;
-}
 
 .home--header--content {
   align-items: center;

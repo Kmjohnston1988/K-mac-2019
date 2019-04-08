@@ -393,6 +393,9 @@ header {
   position: relative;
   justify-content: center;
   background-color: #383046;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/Header_lodge-main_colour.jpg");
   align-items: center;
   width: 100%;
 }
@@ -408,9 +411,6 @@ header:before {
   bottom: 0;
   left: 0%;
   position: absolute;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../images/Header_lodge-main_colour.jpg");
   animation-delay: 0.2s;
 }
 

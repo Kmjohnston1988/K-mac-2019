@@ -47,12 +47,12 @@
     transition-timing-function: ease;
   }
 
-  .is-active span.menu--label {
-    visibility: hidden;
+  .is-active header.active {
+    background-color: ;
   }
 
-  header.is-active.active {
-    background-color: transparent;
+  .is-active span.menu--label {
+    visibility: hidden;
   }
 
 

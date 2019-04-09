@@ -404,7 +404,7 @@ header:before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../images/Header-03_4_75%.jpg");
+  background-image: url("../images/Header_lodge-main_colour.jpg");
   content: "";
   opacity: 0;
   top: 0;
@@ -950,8 +950,8 @@ footer p {
     h2 {}
 
     h4 {
-      font-size: 30pt;
-      line-height: 36pt
+      font-size: 26pt;
+      line-height: 32pt
     }
 
     h5 {
@@ -969,8 +969,8 @@ footer p {
     span {}
 
     span.large--body {
-      font-size: 15pt;
-      line-height: 28pt;
+      font-size: 14pt;
+      line-height: 27pt;
       font-weight: 600;
       color: #404040;
     }
@@ -1024,12 +1024,12 @@ footer p {
     .secondary--header {
       width: 100%;
       padding: 100px 30px;
-      height: 70vh;
+      height: 60vh;
       display: flex;
     }
 
     h1.header--title {
-      font-size: 48pt;
+      font-size: 38pt;
       font-weight: 600;
       letter-spacing: 0px;
     }
@@ -1072,8 +1072,8 @@ footer p {
   }
 
   p.info--body {
-    font-size: 14pt;
-    line-height: 26pt;
+    font-size: 13pt;
+    line-height: 25pt;
   }
 
   p.info--body.intro {

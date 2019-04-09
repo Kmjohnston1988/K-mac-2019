@@ -1013,7 +1013,7 @@ footer p {
     /* ---- Secondary */
 
     .secondary--header {
-      height: 60vh;
+      height: 70vh;
     }
 
     .btn-primary.RSVP {
@@ -1024,12 +1024,12 @@ footer p {
     .secondary--header {
       width: 100%;
       padding: 100px 30px;
-      height: 60vh;
+      height: 70vh;
       display: flex;
     }
 
     h1.header--title {
-      font-size: 38pt;
+      font-size: 44pt;
       font-weight: 600;
       letter-spacing: 0px;
     }

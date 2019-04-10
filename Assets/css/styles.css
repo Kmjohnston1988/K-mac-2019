@@ -215,6 +215,10 @@ a .btn-primary {
 
 /* HAMBURGER + MENU STYLES */
 
+.hamburger:focus {
+    outline:none;
+}
+
 .header {
   position: fixed;
 	z-index: 1000;

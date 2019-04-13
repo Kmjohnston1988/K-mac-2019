@@ -216,13 +216,13 @@ a .btn-primary {
 /* HAMBURGER + MENU STYLES */
 
 .hamburger:focus {
-    outline:none;
+  outline:none;
 }
 
 .header {
   position: fixed;
 	z-index: 1000;
-	height: 80px;
+	height: 66px;
   width: 100%;
   display: block;
 	background: transparent;
@@ -237,6 +237,7 @@ a .btn-primary {
 .active {
   background-color: #383046;
 }
+
 
 .hamburger {
   position: fixed;

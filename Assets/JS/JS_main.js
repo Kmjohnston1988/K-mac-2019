@@ -12,10 +12,10 @@ $(function() {
 $(function() {
     $(window).on("scroll", function() {
         if($(window).scrollTop() > 300) {
-            $("span.menu--label").addClass("flip");
+            $(".header").addClass("active");
         } else {
             //remove the background property so it comes transparent again (defined in your css)
-           $("span.menu--label").removeClass("flip");
+           $(".header").removeClass("active");
         }
     });
 });
@@ -23,10 +23,10 @@ $(function() {
 $(function() {
     $(window).on("scroll", function() {
         if($(window).scrollTop() > 300) {
-            $(".hamburger").addClass("scroll--fade-icon");
+            $("span.menu--label").addClass("flip");
         } else {
             //remove the background property so it comes transparent again (defined in your css)
-           $(".hamburger").removeClass("scroll--fade-icon");
+           $("span.menu--label").removeClass("flip");
         }
     });
 });

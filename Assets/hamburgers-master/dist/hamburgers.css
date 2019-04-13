@@ -6,7 +6,7 @@
  * @link https://github.com/jonsuh/hamburgers
  */
 .hamburger {
-  padding: 30px 30px;
+  padding: 24px 24px;
   position: fixed;
   z-index: 101;
   display: inline-flex;
@@ -39,6 +39,8 @@
     background-color: #fff;
   }
 
+
+
   .is-active span.menu--text {
     visibility: visible;
     opacity: 1;
@@ -69,7 +71,7 @@
   top: 50%;
   margin-top: -2px; }
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 35px;
+    width: 32px;
     height: 2px;
     background-color: #fff;
     border-radius: 2px;

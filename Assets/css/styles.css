@@ -759,9 +759,9 @@ p.p--bar--02 {
   width: 35%;
   min-height: 425px;
   height: 100%;
-  background-image: url("");
+  background-image: url("../images/Byward_market.jpg");
   background-size: cover;
-  background-position: ;
+  background-position: 65%;
   background-repeat: no-repeat;
 }
 

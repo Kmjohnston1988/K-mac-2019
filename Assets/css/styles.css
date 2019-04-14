@@ -76,7 +76,7 @@ a {
 }
 
 span.large--body {
-  font-size: 15pt;
+  font-size: 14pt;
   line-height: 24pt;
   font-weight: 600;
   color: #404040;
@@ -624,6 +624,10 @@ p.info--body.RSVP--body.first {
 
 .btn-secondary.RSVP {
   margin-top: 50px;
+}
+
+.right.RSVP--content {
+  padding-top: 15px;
 }
 
 

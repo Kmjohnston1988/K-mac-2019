@@ -28,6 +28,13 @@ h2 {
   line-height: 63pt;
 }
 
+h3 {
+  font-family: 'big-caslon-fb', serif;
+  font-weight: 600;
+  font-size: 36pt;
+  line-height: 40pt;
+}
+
 h4 {
   font-family: 'big-caslon-fb', serif;
   font-size: 24pt;
@@ -396,10 +403,9 @@ header {
   flex-wrap: wrap;
   height: 100vh;
   overflow: hidden;
-  position: relative;
+  position: ;
   justify-content: center;
   background-color: #383046;
-
   align-items: center;
   width: 100%;
 }
@@ -529,12 +535,48 @@ header:before {
 /* ---- NARRATIVE */
 
 .narrative {
-  height: 100vh;
   background-color: #383046;
   position: relative;
-  bottom: 0;
   display: none;
 }
+
+h3.narrative--title {
+  color: #fff;
+  margin-top: 0px;
+  font-size: 44pt;
+  line-height: 54pt;
+}
+
+span.narrative--title--highlight {
+  color: ;
+}
+
+span.narrative--title--highlight:hover {
+  color: #DD4743;
+  text-decoration: underline;
+  transition-property: color;
+  transition-duration: 0.2s;
+}
+
+.narrative--content {
+  padding: 20% 16%;
+}
+
+span.narrative--body {
+  font-family: 'raleway', sans-serif;
+  font-weight: 300;
+  font-size: 17pt;
+  line-height: 34pt;
+  color: #d5d5d5;
+  padding: 15% 0 20% 17%;
+  display: block;
+}
+
+.narrative--location {
+  padding: 0 0 0 17%;
+}
+
+
 
 /* ---- */
 
@@ -685,11 +727,20 @@ p.p--bar--02 {
 /* ---- Gallery */
 
 .gallery {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url("../images/Video_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: none;
 }
 
 .Faces-places {
-  display: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 

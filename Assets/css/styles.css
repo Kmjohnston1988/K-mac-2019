@@ -915,6 +915,10 @@ span.btn-primary.map--CTA {
   transition-duration: 0.3s;
 }
 
+.old--gifts {
+  display: none;
+}
+
 /* ---- */
 
 
